@@ -1,2 +1,2 @@
 # BraydenAndDan
-code shareing
+code sharing
