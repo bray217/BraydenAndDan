@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/mainStylesheet.css">
+    <title>Webpage design homepage</title>
+  </head>
+  <body>
+    <div class="header" id="myHeader"> <!--This div gets the sticky class added by JS, and the CSS works from there-->
+      <table class="navBar" id="navBar">
+        <tr>
+          <td class="centered"><a href="index.html"><input id="navButton1" class="navButton" type="button" value="Home" /></a></td>
+          <td class="centered"><a href="htmlPage.html"><input id="navButton2" class="navButton" type="button" value="HTML" /></a></td>
+          <td class="centered"><a href="cssPage.html"><input id="navButton3" class="navButton" type="button" value="CSS" /></a></td>
+          <td class="centered"><a href="javascriptPage.html"><input id="navButton4" class="navButton" type="button" value="JavaScript" /></a></td>
+          <td class="centered"><a href="goodDesignPage.html"><input id="navButton5" class="navButton" type="button" value="Good Design" /></a></td>
+          <td class="centered"><a href="citationPage.html"><input id="navButton6" class="navButton" type="button" value="Citations" /></a></td>
+        </tr>
+      </table>
+      <h1 id= title>Webpage Design</h1>
+    </div>
+    <script src="js/navbar.js"></script> <!--The script tags can have JS in them, instead of on a different file, the src links to the JS file-->
+    <div class="centered" id="content">
+      <br>
+      <form>
+        Name Enter Form: <input type="text" id="name" value="Your name" onfocus="this.value=''" onkeydown="return event.key != 'Enter';" />
+        <input type="button" id="submitButton" value="Submit" onclick="buttonClick(this)" /><!--The Onfocus clears the text box, the onkeydown stops enter from clearing the text box, and onclick calls the function in JS-->
+        <script src="js/namecheckV2.js"></script>  
+      </form>
+      <br>
+      <p>This is a webpage dedicated to good webpage design</p>
+      <p> The other pages, linked at the top and here, are:
+        <ul>
+          <br><br>
+          <li class="centered"><a href="htmlPage.html">HTML</a></li>
+          <li class="centered"><a href="cssPage.html">CSS</a></li>
+          <li class="centered"><a href="javascriptPage.html">JavaScript</a></li>
+          <li class="centered"><a href="goodDesignPage.html">And more!</a></li>
+          <br><br>
+        </ul>
+      </p>
+    </div>
+  </body>
+</html>

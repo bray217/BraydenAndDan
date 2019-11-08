@@ -1,0 +1,94 @@
+body{
+  background-color: seashell;
+  margin-top: 0px;
+}
+h1{
+  text-align: center;
+  color: royalblue;
+  font-size: 60px;
+}
+h4{
+  color: royalblue;
+  font-size: 35px;
+}
+h5{
+  text-align: center;
+  color: royalblue;
+  font-size: 30px;
+}
+h6{
+  font-size: 15px;
+  color: darkblue;
+  text-align: center;
+}
+p{
+  color: darkblue;
+  font-size: 20px;
+  background-color: rgb(123, 168, 250);
+}
+ul{
+  font-size: 20px;
+  list-style-position: outside;
+  list-style-type: none;
+  background-color: rgb(123, 168, 250);
+}
+img{
+  height: 200px;
+}
+table{
+  table-layout: fixed;
+  color: royalblue;
+  width: 100%;
+  align-self: auto;
+  border: 2px;
+}
+th{
+  text-align: center;  
+  font-size: 35px;
+  width: 33%;
+  background-color: lightskyblue;
+
+}
+td{
+  text-align: left; 
+  width: 33%;
+  background-color: rgb(123, 168, 250);
+  color: darkblue;
+}
+span{
+  color: black;
+  font-family: 'Courier New', Courier, monospace;
+}
+form{
+  background-color: rgb(123, 168, 250);
+  color: darkblue;
+  font-size: 20px;
+}
+.navButton{
+  text-align: center;
+  background-color: aquamarine;
+  font-size: 22px;
+}
+.tab{
+  margin-left: 100px;
+}
+
+.centered{
+  text-align: center;
+}
+.header{
+  /*top: 0;*/
+  background-color: rgb(123, 168, 250);
+}
+.sticky {
+  position: sticky;
+  top: 0;
+}/*Is added by JS for the navbar, sticks it to top of page*/
+#content{
+  margin-bottom: 20px;
+}
+.navBar{
+  border:2px solid black;
+}
+
+
